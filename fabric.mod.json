@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "unlimited-enchantments",
+	"version": "1.0.2",
+	"name": "Unlimited Enchantments",
+	"description": "Enchantments now have no limit on levels!",
+	"authors": [
+		"SayNooty"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "pack.png",
+	"environment": "*",
+	"entrypoints": {},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

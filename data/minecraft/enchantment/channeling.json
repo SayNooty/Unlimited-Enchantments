@@ -15,9 +15,9 @@
             },
             {
               "type": "minecraft:play_sound",
-              "pitch": 1.0,
+              "pitch": 1,
               "sound": "minecraft:item.trident.thunder",
-              "volume": 5.0
+              "volume": 5
             }
           ]
         },
@@ -61,9 +61,9 @@
             },
             {
               "type": "minecraft:play_sound",
-              "pitch": 1.0,
+              "pitch": 1,
               "sound": "minecraft:item.trident.thunder",
-              "volume": 5.0
+              "volume": 5
             }
           ]
         },

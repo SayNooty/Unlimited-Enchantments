@@ -10,16 +10,16 @@
           "type": "minecraft:fraction",
           "denominator": {
             "type": "minecraft:linear",
-            "base": 2.0,
-            "per_level_above_first": 1.0
+            "base": 2,
+            "per_level_above_first": 1
           },
           "numerator": {
             "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
+            "base": 1,
+            "per_level_above_first": 1
           }
         },
-        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "attribute": "minecraft:sweeping_damage_ratio",
         "id": "minecraft:enchantment.sweeping_edge",
         "operation": "add_value"
       }

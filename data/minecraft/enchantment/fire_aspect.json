@@ -11,8 +11,8 @@
           "type": "minecraft:ignite",
           "duration": {
             "type": "minecraft:linear",
-            "base": 4.0,
-            "per_level_above_first": 4.0
+            "base": 4,
+            "per_level_above_first": 4
           }
         },
         "enchanted": "attacker",

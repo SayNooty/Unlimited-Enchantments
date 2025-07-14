@@ -12,13 +12,13 @@
             "type": "minecraft:fraction",
             "denominator": {
               "type": "minecraft:linear",
-              "base": 10.0,
-              "per_level_above_first": 5.0
+              "base": 10,
+              "per_level_above_first": 5
             },
             "numerator": {
               "type": "minecraft:linear",
-              "base": 2.0,
-              "per_level_above_first": 2.0
+              "base": 2,
+              "per_level_above_first": 2
             }
           }
         },
@@ -36,13 +36,13 @@
             "type": "minecraft:fraction",
             "denominator": {
               "type": "minecraft:linear",
-              "base": 2.0,
-              "per_level_above_first": 1.0
+              "base": 2,
+              "per_level_above_first": 1
             },
             "numerator": {
               "type": "minecraft:linear",
-              "base": 1.0,
-              "per_level_above_first": 1.0
+              "base": 1,
+              "per_level_above_first": 1
             }
           }
         },

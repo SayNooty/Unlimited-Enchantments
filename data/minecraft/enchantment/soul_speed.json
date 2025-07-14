@@ -7,15 +7,27 @@
     "minecraft:location_changed": [
       {
         "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 0.0405,
-            "per_level_above_first": 0.0105
-          },
-          "attribute": "minecraft:generic.movement_speed",
-          "id": "minecraft:enchantment.soul_speed",
-          "operation": "add_value"
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:attribute",
+              "amount": {
+                "type": "minecraft:linear",
+                "base": 0.0405,
+                "per_level_above_first": 0.0105
+              },
+              "attribute": "minecraft:movement_speed",
+              "id": "minecraft:enchantment.soul_speed",
+              "operation": "add_value"
+            },
+            {
+              "type": "minecraft:attribute",
+              "amount": 1,
+              "attribute": "minecraft:movement_efficiency",
+              "id": "minecraft:enchantment.soul_speed",
+              "operation": "add_value"
+            }
+          ]
         },
         "requirements": {
           "condition": "minecraft:all_of",
@@ -106,28 +118,8 @@
       },
       {
         "effect": {
-          "type": "minecraft:attribute",
-          "amount": 1.0,
-          "attribute": "minecraft:generic.movement_efficiency",
-          "id": "minecraft:enchantment.soul_speed",
-          "operation": "add_value"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "movement_affected_by": {
-              "block": {
-                "blocks": "#minecraft:soul_speed_blocks"
-              }
-            }
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:damage_item",
-          "amount": 1.0
+          "type": "minecraft:change_item_damage",
+          "amount": 1
         },
         "requirements": {
           "condition": "minecraft:all_of",
@@ -170,7 +162,7 @@
           "particle": {
             "type": "minecraft:soul"
           },
-          "speed": 1.0,
+          "speed": 1,
           "vertical_position": {
             "type": "entity_position",
             "offset": 0.1
@@ -189,7 +181,7 @@
             },
             "movement": {
               "horizontal_speed": {
-                "min": 9.999999747378752E-6
+                "min": 0.000009999999747378752
               }
             },
             "movement_affected_by": {
@@ -206,7 +198,7 @@
           "type": "minecraft:play_sound",
           "pitch": {
             "type": "minecraft:uniform",
-            "max_exclusive": 1.0,
+            "max_exclusive": 1,
             "min_inclusive": 0.6
           },
           "sound": "minecraft:particle.soul_escape",
@@ -229,7 +221,7 @@
                 },
                 "movement": {
                   "horizontal_speed": {
-                    "min": 9.999999747378752E-6
+                    "min": 0.000009999999747378752
                   }
                 },
                 "movement_affected_by": {
