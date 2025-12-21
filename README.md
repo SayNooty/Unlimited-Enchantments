@@ -7,9 +7,7 @@ In the Creative Mode Ingredients tab, enchantments with level 255 will be displa
 **Note:**
 You can only get enchantments exceeding the game limit by finding them in structures or buying them from residents.
 
----
-**Possible disadvantages:**
-When trying to combine two books of a high enchantment level, it may not be possible due to the too expensive amount of experience. If anyone knows how to fix this, please upload the solution to our [Github](https://github.com/SayNooty/Unlimited-Enchantments).
+
 
 
 
